@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "DBSCAN_10_100",
+    "Type":"CUSTOM_JAR",
+    "Jar":"s3://dbscan-spark/jars/DBSCAN-assembly-1.0.jar",
+    "Args":
+    [
+      "s3://dbscan-spark/input/above_40k.csv",
+      "s3://dbscan-spark/output/result",
+      "10",
+      "100"
+    ],
+    "ActionOnFailure": "TERMINATE_CLUSTER"
+  }
+]

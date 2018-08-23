@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/eriknorlander/dbscan-spark/src/main/scala/ClusterByWIFI.scala:45:24: not found: value classify[0m
+[0m[[0m[31merror[0m] [0m[0m      val classified = classify(sizeMap(distincts(i)), clust)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
